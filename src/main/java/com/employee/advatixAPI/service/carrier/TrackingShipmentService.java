@@ -98,7 +98,7 @@ public class TrackingShipmentService {
         String filePath = "";
 
         if (trackedNumber.getPods() != null) {
-            filePath = createPdf("C:\\Users\\yogia\\Desktop\\advatixAPI\\Photos\\" + trackedNumber.getTrackingNumber() + ".pdf", trackedNumber.getPods());
+            filePath = createPdf("C:\\Users\\yogia\\Desktop\\Advatix Project\\AdvatixProject\\Photos\\" + trackedNumber.getTrackingNumber() + ".pdf", trackedNumber.getPods());
         }
         String finalFilePath = filePath;
 
